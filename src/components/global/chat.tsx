@@ -5,7 +5,7 @@ import { DEFAULT_HISTORY } from "../../constants/constants";
 const Smiles = styled(({ ...props }) => {
   return (
     <div {...props}>
-      <img src="images/chat/smile.png" alt="smile" />
+      <img src="./images/chat/smile.png" alt="smile" />
     </div>
   );
 })`
@@ -58,7 +58,7 @@ const ChatInput = styled(({ ...props }) => {
           console.log("send logic");
         }}
       >
-        <img src="images/chat/send.png" alt="send icon" />
+        <img src="./images/chat/send.png" alt="send icon" />
       </SendButton>
     </div>
   );
@@ -77,7 +77,7 @@ const ChatInput = styled(({ ...props }) => {
 const ChatTitle = styled(({ ...props }) => {
   return (
     <div {...props}>
-      Global Chat <img src="images/chat/chat-title.png" alt="chat" />
+      Global Chat <img src="./images/chat/chat-title.png" alt="chat" />
     </div>
   );
 })`
